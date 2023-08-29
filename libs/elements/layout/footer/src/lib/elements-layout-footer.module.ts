@@ -6,5 +6,6 @@ import { FooterComponent } from './components/elewa-website-footer/elewa-website
 @NgModule({
   imports: [CommonModule],
   declarations: [FooterComponent],
+  exports: [FooterComponent],
 })
 export class AppFooterModule {}
