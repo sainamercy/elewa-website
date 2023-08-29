@@ -1,9 +1,10 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ElewaWebsiteFooterComponent } from './components/elewa-website-footer/elewa-website-footer.component';
+
+import { FooterComponent } from './components/elewa-website-footer/elewa-website-footer.component';
 
 @NgModule({
   imports: [CommonModule],
-  declarations: [ElewaWebsiteFooterComponent],
+  declarations: [FooterComponent],
 })
 export class AppFooterModule {}

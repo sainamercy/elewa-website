@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { ElewaWebsiteFooterComponent } from './elewa-website-footer.component';
+import { FooterComponent } from './elewa-website-footer.component';
 
-describe('ElewaWebsiteFooterComponent', () => {
-  let component: ElewaWebsiteFooterComponent;
-  let fixture: ComponentFixture<ElewaWebsiteFooterComponent>;
+describe('FooterComponent', () => {
+  let component: FooterComponent;
+  let fixture: ComponentFixture<FooterComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ElewaWebsiteFooterComponent],
+      declarations: [FooterComponent],
     }).compileComponents();
 
-    fixture = TestBed.createComponent(ElewaWebsiteFooterComponent);
+    fixture = TestBed.createComponent(FooterComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
